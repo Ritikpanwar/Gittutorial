@@ -1,0 +1,24 @@
+->git status
+->git add .
+->git add --a
+->git commit -m "comments you want"
+->git diff
+->git log// it is used to show the change when done you any person
+->git log -p // it show diff with commits
+->git log -p -3// it is used to 3 last commits only.
+->git log --stat// it is used to short changing details of repositary
+->git log --pretty// it shows all commits in one line with their coomments made at the time of the commit of thr e repositry
+->git log --pretty=short // it show only author name with the the commit
+->git log --pretty=full // it show  author name(father of file) and  commiter(who update the file ) with the the commit
+->git mv first.txt firstmodified.txt// it is used to rename the file
+->git rm filename // It is used to remove the file from the folder of the repositary.
+->git log --since=2.days// we can use week,years,months instead of days .It show the update of the particular time period
+->git log --pretty=format:"%h--%an"// their are so many of format specifier in the the documentation of the git
+here "an" stands for the the author name 
+and "ae" is stands for the author email.
+->touch filename //It is used to craate the file with the git bash
+->git clone link which you copy from the the git hub
+->git restore --staged filename//It is used to unstage the the file.
+->git checkout -- filename // if you want to revert back to unmodified file or last commited file.(it is used whe you modifiy the filre but you want the last content
+->git checkout -f // if you want to revert back to unmodified files or last commited files.(it is used when you modifiy the files in huge no. but you want the last content
+->
