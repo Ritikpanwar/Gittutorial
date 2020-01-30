@@ -21,4 +21,7 @@ and "ae" is stands for the author email.
 ->git restore --staged filename//It is used to unstage the the file.
 ->git checkout -- filename // if you want to revert back to unmodified file or last commited file.(it is used whe you modifiy the filre but you want the last content
 ->git checkout -f // if you want to revert back to unmodified files or last commited files.(it is used when you modifiy the files in huge no. but you want the last content
+## pull means take code from github
+## push means upload code on the the git
 ->
+
