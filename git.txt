@@ -23,5 +23,18 @@ and "ae" is stands for the author email.
 ->git checkout -f // if you want to revert back to unmodified files or last commited files.(it is used when you modifiy the files in huge no. but you want the last content
 ## pull means take code from github
 ## push means upload code on the the git
-->
-
+->git push -d origin bugfix // This is used to delete the branch from github account.
+->git push -u origin master// this is used to send the file in the github to main branch.
+-> git branch -d bugfix// this is used to delete the branch
+->git merge bugfix this is used to merge the bugfix branch with main branch.
+->git checkout master//this is used to change the branch .
+->git remote add origin(name of remote) link of your remote
+->git rmote rm origin//this is used to delete the remote
+->git rmote -v // this is used to se all the remote
+-------------------------------------------------------------------------------
+------------this comments are used to set the ssh keys.------------------------
+->ssh-keygen -t rsa -b 4096 -C "panwarritik0@gmail.com"
+->eval $(ssh-agent -s)
+->ssh-add ~/.ssh/id_rsa
+->tail ~/.ssh/id_rsa.pub//this is used to see the key.
+----------------------------------------------------------------------------------
